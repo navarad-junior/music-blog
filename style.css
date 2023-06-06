@@ -1,0 +1,244 @@
+
+
+input{
+    width: 400px;
+    height: 40px;
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+
+
+.glyphicon-music{
+    color: red;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.search{
+    padding-bottom: 6rem;
+}
+hr.light{
+    border-top: 1px solid lightgray;
+    width: 75%;
+    margin-top: auto;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+.btn-primary{
+    margin: 15px;
+}
+
+.glyphicon-chevron-right{
+    float: right;
+    font-size: 10px;
+    color: lightgrey;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+button .glyphicon-chevron-left {
+    font-size: 15px;
+}
+
+button .glyphicon-chevron-right {
+    font-size: 15px;
+    color: black;
+}
+
+.second-button button{
+    color: blue;
+    font-size: 15px;
+}
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+footer,p a{
+    text-decoration: none;
+    color: #d5d5d5;
+}
+
+footer,p a:hover{
+    text-decoration: none;
+    color: #d5d5d5;
+}
+
+
+h5 a{
+    text-decoration: none;
+    color: #d5d5d5;
+}
+
+h5 a:hover{
+    text-decoration: none;
+    color: #d5d5d5;
+}
+
+
+@media (max-width: 576px){
+     .btn{
+        font-size: 15px;
+    }
+
+    .buttons-container .glyphicon{
+        font-size: 5px;
+    }
+
+    .buttons-container .glyphicon-chevron-left{
+        font-size: 9px;
+    }
+
+    .buttons-container .glyphicon-chevron-right{
+        font-size: 9px;
+    }
+
+
+    .col-md-4 .glyphicon-chevron-right{
+        font-size: 7px;
+    }
+
+
+    input{
+        width: 300px;
+        height: 35px;
+    }
+
+    .glyphicon-music{
+        display: none;
+    }
+
+    .col-md-4 p{
+        font-size: 11px;
+    }
+
+    .my-4{
+        width: 75%;
+    }
+
+    
+
+    
+
+}
+
+@media (max-width: 768px){
+    .btn{
+        font-size: 11px;
+    }
+
+    .buttons-container .glyphicon{
+        font-size: 7px;
+    }
+
+    .buttons-container .glyphicon-chevron-left{
+        font-size: 9px;
+    }
+
+    .buttons-container .glyphicon-chevron-right{
+        font-size: 9px;
+    }
+
+
+    .col-md-4 .glyphicon-chevron-right{
+        font-size: 9px;
+    }
+
+
+    input{
+        width: 320px;
+        height: 40px;
+    }
+
+    .glyphicon-music{
+        font-size: 20px;
+    }
+
+    .col-md-4 p{
+        font-size: 13px;
+    }
+
+    .my-4{
+        width: 75%;
+    }
+}
+
+
+@media (max-width: 992px){
+    .btn{
+        font-size: 12px;
+    }
+
+    .my-4{
+        width: 75%;
+    }
+
+}
+
+.navbar{
+    background-color: #2f4f4f;
+}
+
+/* THE DOWNLOAD.HTML STYLES SECTION */
+
+.music-and-word-wrapper{
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.music-and-word-wrapper div{
+    margin-right: 20px;
+}
+
+.img-wrapper img{
+    border-radius: 5px;
+}
+
+/* MEDIA QUERIES FOR THE DOWNLOAD SECTION */
+@media (max-width: 576px){
+    .img-wrapper img{
+        width: 300px;
+        height: 300px;
+    }
+
+
+}
+
+@media (max-width: 768px){
+    .img-wrapper img{
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 992px){
+    .img-wrapper img{
+        width: 400px;
+        height: 300px;
+    }
+
+}
+
+.navbar{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
